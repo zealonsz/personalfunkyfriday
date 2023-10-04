@@ -727,13 +727,7 @@ Groups.Misc = Tabs.Miscellaneous:AddRightGroupbox('Miscellaneous')
     Groups.Misc:AddLabel(metakarrot.message or 'no message found!', true)
 
     Groups.Misc:AddDivider()
-    Groups.Misc:AddButton('Completely Delete the Script', function() pcall(shared._unload) end)
-    Groups.Misc:AddButton('Copy discord', function()
-        if pcall(setclipboard, "https://wally.cool/discord") then
-            UI:Notify('Successfully copied discord link to your clipboard!', 5)
-        end
-    end)
-
+    Groups.Misc:AddButton('kill script', function() pcall(shared._unload) end)
     Groups.Misc:AddLabel('Menu toggle'):AddKeyPicker('MenuToggle', { Default = 'Delete', NoUI = true })
 
     UI.ToggleKeybind = Options.MenuToggle
@@ -825,5 +819,5 @@ do
     })
 end
 
-UI:Notify(string.format('Loaded script in %.4f second(s)!', tick() - start), 3)
+UI:Notify(string.format('fuck yourself!', tick() - start), 3)
 UI:Notify('Skidded By Zealon', 3)
