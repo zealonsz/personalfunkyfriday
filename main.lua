@@ -561,7 +561,7 @@ local SaveManager = {} do
     end
 
     function SaveManager:Load(name)
-        local file = 'zealon_friday_autopayer/configs/' .. name .. '.json'
+        local file = 'zealon_friday_autoplayer/configs/' .. name .. '.json'
         if not isfile(file) then return false, 'invalid file' end
 
         local success, decoded = pcall(httpService.JSONDecode, httpService, readfile(file))
@@ -643,7 +643,7 @@ local SaveManager = {} do
 end
 
 local Window = UI:CreateWindow({
-    Title = string.format("zealons' autoplayer - version %s | updated: %s", metakarrot.version, metakarrot.updated),
+    Title = string.format("zealon's autoplayer - version %s | updated: %s", metakarrot.version, metakarrot.updated),
     AutoShow = true,
     
     Center = true,
