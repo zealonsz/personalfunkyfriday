@@ -88,7 +88,7 @@ if type(getinfo) ~= 'function' then
 end
 
 local UI = urlLoad("https://raw.githubusercontent.com/Bart3kk/LinLib/main/Library.lua")
-local themeManager = urlLoad("https://raw.githubusercontent.com/tophblindlol/personalfunkyfriday/main/themes.lua")
+local themeManager = urlLoad("https://raw.githubusercontent.com/Bart3kk/LinLib/main/ThemeManager.lua")
 
 local metakarrot = urlLoad("https://raw.githubusercontent.com/tophblindlol/personalfunkyfriday/main/metakarrot.lua")
 local httpService = game:GetService('HttpService')
