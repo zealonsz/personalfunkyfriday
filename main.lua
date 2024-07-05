@@ -643,7 +643,7 @@ local SaveManager = {} do
 end
 
 local Window = UI:CreateWindow({
-    Title = string.format("zealon's autoplayer - version %s | updated: %s", metakarrot.version, metakarrot.updated),
+    Title = string.format("zealon's REWORKED autolayer - version %s | updated: %s", metakarrot.version, metakarrot.updated),
     AutoShow = true,
     
     Center = true,
