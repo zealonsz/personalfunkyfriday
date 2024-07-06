@@ -90,7 +90,7 @@ end
 local UI = urlLoad("https://raw.githubusercontent.com/Bart3kk/LinLib/main/Library.lua")
 local themeManager = urlLoad("https://raw.githubusercontent.com/Bart3kk/LinLib/main/ThemeManagerNull.lua")
 
-local metakarrot = urlLoad("https://raw.githubusercontent.com/tophblindlol/personalfunkyfriday/main/metakarrot.lua")
+local metakarrot = urlLoad("https://github.com/Bart3kk/funky-friday-autoplay/blob/main/metadata1.lua")
 local httpService = game:GetService('HttpService')
 
 local framework, scrollHandler, network
