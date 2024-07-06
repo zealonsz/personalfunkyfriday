@@ -716,7 +716,7 @@ Groups.Credits = Tabs.Miscellaneous:AddRightGroupbox('Credits')
         label.TextLabel.RichText = true
     end
 
-    addRichText(Groups.Credits:AddLabel('<font color="#3020ff">zealon</font> - skidder'))
+    addRichText(Groups.Credits:AddLabel('<font color="#3020ff">zealon</font> - skidder + made script work again'))
     addRichText(Groups.Credits:AddLabel('<font color="#3da5ff">wally</font> - scripter'))
     addRichText(Groups.Credits:AddLabel('<font color="#de6cff">Sezei</font> - contributor'))
     Groups.Credits:AddLabel('Inori - ui library')
