@@ -656,7 +656,7 @@ local Groups = {}
 Tabs.Main = Window:AddTab('Main')
 Tabs.Miscellaneous = Window:AddTab('Miscellaneous')
 
-Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('Autoplayer')
+Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('SkidPlayer')
     Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'SkidPlayer' }):AddKeyPicker('AutoplayerBind', { Default = 'V', NoUI = true, SyncToggleState = true })
     Groups.Autoplayer:AddDropdown('PressMode', {
         Text = 'Input mode', 
