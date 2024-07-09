@@ -657,7 +657,7 @@ Tabs.Main = Window:AddTab('Main')
 Tabs.Miscellaneous = Window:AddTab('Miscellaneous')
 
 Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('Autoplayer')
-    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'End', NoUI = true, SyncToggleState = true })
+    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'V', NoUI = true, SyncToggleState = true })
     Groups.Autoplayer:AddDropdown('PressMode', {
         Text = 'Input mode', 
         Compact = true, 
