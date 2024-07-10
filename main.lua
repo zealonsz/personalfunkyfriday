@@ -96,6 +96,9 @@ local httpService = game:GetService('HttpService')
 local framework, scrollHandler, network
 local counter = 0
 
+UI:Notify(string.format('fuck yourself!', tick() - start), 3)
+UI:Notify('Skidded By Zealon', 3)
+
 while true do
     for _, obj in next, getgc(true) do
         if type(obj) == 'table' then 
@@ -818,6 +821,3 @@ do
         "ThemeManager_ThemeList", 'ThemeManager_CustomThemeList', 'ThemeManager_CustomThemeName', -- themes
     })
 end
-
-UI:Notify(string.format('fuck yourself!', tick() - start), 3)
-UI:Notify('Skidded By Zealon', 3)
