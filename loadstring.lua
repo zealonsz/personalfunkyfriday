@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tophblindlol/personalfunkyfriday/main/main.lua",true))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tophblindlol/V0hBVFRIRUZVQ0tJU0FLSUxPTUVURVJSUlJSUlJSUlJSUlJSUk9NR0RJU0NPUkRQTEVBU0VWRVJJRllNRQ/refs/heads/main/funkyfriday?token=GHSAT0AAAAAACW3S7SWXRCGS4QOXZCLKLR4ZZBUJQQ",true))();
