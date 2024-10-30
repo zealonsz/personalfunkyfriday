@@ -1,3 +1,3 @@
-# personalfunkyfriday
-i hope you kill yourself.
-#  Don't USE my personal script.
+# personal script
+
+# try executing, you'll get ip logged watch
