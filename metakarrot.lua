@@ -1,5 +1,5 @@
 return {
-	version = '2.2b',
-	updated = -'6/7/24',
+	version = '2.3b',
+	updated = -'10/30/24',
 	message = 'why'
 }
